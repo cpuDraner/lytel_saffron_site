@@ -6,7 +6,7 @@
 2. Install yarn. It's a tool that runs and installs stuff. To do so, run `npm install yarn -g`.
 3. Install VS Code. It's a dev environment and it's just really so nice. https://code.visualstudio.com/download
 4. Install the neocities command line tool. It will make it easy to release new versions of the site! https://neocities.org/cli
-5. Take a look at (src/index.tsx)[./src/index.tsx], it's the base page of your application
+5. Take a look at [src/index.tsx](./src/index.tsx), it's the base page of your application
 6. Run `yarn` aka `yarn install`, this will look at the yarn.lock file and download all the libraries your code needs
 
 
