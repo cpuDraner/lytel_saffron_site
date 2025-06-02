@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- HDP by Apple Juice -->
+<!-- PGB by Draner -->
+<html>
+  <head>
+    <script type="text/javascript" src="allPGB.json"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="/favicon.gif">
+  </head>
+
+  <body>
+
+    <h1>HTML Display Prototype 1.0.4 for P.G.B. b.0.8</h1>
+    <p><small>AKA HDP4PGB</small></p>
+
+    <hr>
+
+    <script>
+    function scardOut() {
+      let inp = document.forms["scard"]["scard"].value;
+      var scarddata = JSON.parse(eval("c" + inp));
+      document.getElementById('sid').innerHTML = inp;
+      document.getElementById('stitle').innerHTML = scarddata.name;
+      document.getElementById('stype').innerHTML = scarddata.type;
+      document.getElementById('smeter').innerHTML = scarddata.meter;
+      document.getElementById('srange').innerHTML = scarddata.range;
+      document.getElementById('sdesc').innerHTML = scarddata.desc;
+      return false;
+    }
+    </script>
+
+    <form name="scard" onsubmit="return scardOut()" method="post">
+      Super Card ID: <input type="password" id="scard">
+      <input type="submit" value="Submit">
+    </form>
+
+    <a>ID: <a id="sid"></a></a>
+    <h2 id="stitle"></h2>
+    <p>Type: <a id="stype"></a> | Meter: <a id="smeter"></a> | Range: <a id="srange"></a></p>
+    <p>Effects: <a id="sdesc"></a></p>
+
+
+    <hr>
+
+    <script>
+    function fcardOut() {
+      let inp = document.forms["fcard"]["fcard"].value;
+      var fcarddata = JSON.parse(eval("c" + inp));
+      document.getElementById('fid').innerHTML = inp;
+      document.getElementById('ftitle').innerHTML = fcarddata.name;
+      document.getElementById('ftype').innerHTML = fcarddata.type;
+      document.getElementById('fmeter').innerHTML = fcarddata.meter;
+      document.getElementById('frange').innerHTML = fcarddata.range;
+      document.getElementById('fdesc').innerHTML = fcarddata.desc;
+      return false;
+    }
+    </script>
+
+    <form name="fcard" onsubmit="return fcardOut()" method="post">
+      Fight Card ID: <input type="password" id="fcard">
+      <input type="submit" value="Submit">
+    </form>
+
+    <a>ID: <a id="fid"></a></a>
+    <h2 id="ftitle"></h2>
+    <p>Type: <a id="ftype"></a> | Meter: <a id="fmeter"></a> | Range: <a id="frange"></a></p>
+    <p>Effects: <a id="fdesc"></a></p>
+
+    <hr>
+
+    <script>
+    function bcardOut() {
+      let inp = document.forms["bcard"]["bcard"].value;
+      var bcarddata = JSON.parse(eval("c" + inp));
+      document.getElementById('bid').innerHTML = inp;
+      document.getElementById('btitle').innerHTML = bcarddata.name;
+      document.getElementById('btype').innerHTML = bcarddata.type;
+      document.getElementById('btrigger').innerHTML = bcarddata.trigger;
+      document.getElementById('bdesc').innerHTML = bcarddata.desc;
+      return false;
+    }
+    </script>
+
+    <form name="bcard" onsubmit="return bcardOut()" method="post">
+      BLITZ! Card ID: <input type="password" id="bcard">
+      <input type="submit" value="Submit">
+    </form>
+
+    <a>ID: <a id="bid"></a></a>
+    <h2 id="btitle"></h2>
+    <p>Type: <a id="btype"></a> | Trigger: <a id="btrigger"></a></p>
+    <p>Effects: <a id="bdesc"></a></p>
+
+    <hr>
+
+    <script>
+    var h = 12;
+    var m = 0;
+    var d = 0;
+    var b = 3;
+
+    document.getElementById('health').innerHTML = h;
+    document.getElementById('meter').innerHTML = m;
+    document.getElementById('distance').innerHTML = d;
+    document.getElementById('blitzNum').innerHTML = b;
+
+    function hp() {
+      document.getElementById('health').innerHTML = ++h;
+    }
+    function hm() {
+      document.getElementById('health').innerHTML = --h;
+    }
+
+    function mp() {
+      document.getElementById('meter').innerHTML = ++m;
+    }
+    function mm() {
+      document.getElementById('meter').innerHTML = --m;
+    }
+
+    function dp() {
+      document.getElementById('distance').innerHTML = ++d;
+    }
+    function dm() {
+      document.getElementById('distance').innerHTML = --d;
+    }
+
+    function bp() {
+      document.getElementById('blitzNum').innerHTML = ++b;
+    }
+    function bm() {
+      document.getElementById('blitzNum').innerHTML = --b;
+    }
+    </script>
+
+    <h3>Health: <a id="health">12</a>
+    <a>
+    <input type=button value="H+" onclick="hp()" />
+    <input type=button value="H-" onclick="hm()" />
+    </a></h3>
+
+    <h3>Meter: <a id="meter">0</a>
+    <a>
+    <input type=button value="M+" onclick="mp()" />
+    <input type=button value="M-" onclick="mm()" />
+    </a></h3>
+
+    <p>Distance: <a id="distance">0</a>
+    <a>
+    <input type=button value="D+" onclick="dp()" />
+    <input type=button value="D-" onclick="dm()" />
+    </a></p>
+
+    <p>BLITZ! cards remaining: <a id="blitzNum">3</a>
+    <a>
+    <input type=button value="B+" onclick="bp()" />
+    <input type=button value="B-" onclick="bm()" />
+    </a></p>
+
+    <hr>
+
+    <script>
+    function showtime(hide) {
+      var hideOut;
+      if (hide == 1) {
+        hideOut = "HDP by Apple Juice<br>PGB by Draner"
+      } else {
+        hideOut = ""
+      }
+      document.getElementById('showID').innerHTML = hideOut;
+    }
+    </script>
+
+    <p>
+    <button type="button" onclick="showtime(1)">Show Credits</button>
+    <button type="button" onclick="showtime(0)">Hide</button>
+    </p>
+
+    <p id="showID"></p>
+
+    <hr>
+
+  </body>
+</html>
