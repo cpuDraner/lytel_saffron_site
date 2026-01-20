@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+       <title>Draner's Web</title>
+       <description>A journal of sorts</description>
+       <link>https://lytel-saffron.neocities.org/blog</link>
+       <item>
+         <title>Here I Am</title>
+         <link>https://lytel-saffron.neocities.org/blog/here-i-am.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/here-i-am.html</guid>
+         <pubDate>Mon, 20 Jan 2026 00:00:00 EST</pubDate>
+       </item>
+    </channel>
+
+</rss>
