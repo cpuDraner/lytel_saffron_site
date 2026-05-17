@@ -1,14 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
        <title>Draner's Web</title>
        <description>A journal of sorts</description>
        <link>https://lytel-saffron.neocities.org/blog</link>
+        <atom:link href="https://lytel-saffron.neocities.org/rss.xml" rel="self" type="application/rss+xml"/>
+
        <item>
          <title>Here I Am</title>
          <link>https://lytel-saffron.neocities.org/blog/here-i-am.html</link>
          <guid>https://lytel-saffron.neocities.org/blog/here-i-am.html</guid>
          <pubDate>Mon, 20 Jan 2026 00:00:00 EST</pubDate>
+       </item>
+	   <item>
+         <title>To Me in 5 Years</title>
+         <link>https://lytel-saffron.neocities.org/blog/to-me-in-5-years.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/to-me-in-5-years.html</guid>
+         <pubDate>Tue, 10 Feb 2026 00:00:00 EST</pubDate>
+       </item>
+	   <item>
+         <title>I Can Fall</title>
+         <link>https://lytel-saffron.neocities.org/blog/i-can-fall.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/i-can-fall.html</guid>
+         <pubDate>Thu, 19 Feb 2026 02:38:00 EST</pubDate>
+       </item>
+	   <item>
+         <title>Archipelago</title>
+         <link>https://lytel-saffron.neocities.org/blog/archipelago.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/archipelago.html</guid>
+         <pubDate>Mon, 23 Feb 2026 07:00:00 EST</pubDate>
+       </item>
+	   <item>
+         <title>Assorted vol 1</title>
+         <link>https://lytel-saffron.neocities.org/blog/assorted.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/assorted.html</guid>
+         <pubDate>Mon, 23 Feb 2026 07:00:00 EST</pubDate>
+       </item>
+	   <item>
+         <title>Victory Nap</title>
+         <link>https://lytel-saffron.neocities.org/blog/victory-nap.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/victory-nap.html</guid>
+         <pubDate>Sun, 10 May 2026 23:50:00 EST</pubDate>
        </item>
     </channel>
 
