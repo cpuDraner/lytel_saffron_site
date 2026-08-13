@@ -1,47 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl" media="screen" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-       <title>Draner's Web</title>
+      <title>Draner's Web</title>
        <description>A journal of sorts</description>
        <link>https://lytel-saffron.neocities.org/blog</link>
         <atom:link href="https://lytel-saffron.neocities.org/rss.xml" rel="self" type="application/rss+xml"/>
-
+	   <item>
+        <title>Site Update</title>
+        <link>https://lytel-saffron.neocities.org/blog/site-update.html</link>
+        <guid>https://lytel-saffron.neocities.org/blog/site-update.html</guid>
+        <pubDate>Sun, 17 May 2026 23:00:00 EST</pubDate>
+        <description>
+        <![CDATA[<p>Welcome to the new Lytel Saffron! If you're reading this on the site, you've likely noticed quite a few changes.</p> <p>Since I gained a bit more time on my hands, I finally got around to overhauling the site's aesthetics. I still prefer an overall simple look, but as a darkmode user it's nice to have white text on a black background by default. I fixed the issue with the text being forced against the side of the screen by giving 25 pixels of breathing room to the main content of the page. A footer at the bottom of each page helps things look a bit more web-y while also providing some useful links.</p> <p>There's also been several new pages added, with old ones being adjusted or overhauled;</p> <ul><li>Blog page: Nothing literally changed, but I've decided to be less picky with what I post. I've enjoyed short posts and image posts on other people's blogs, so I see no reason to try to force myself into an arbitrary length limit. The assorted series (if you can call one instance a series) will still be a thing, but things of that length will also be posted.</li> <li>Article page: A new one. I have a few longer articles in the works, and it felt weird lumping them in with my rambly blog posts given the level of work I was putting into them. These new articles will show up on the same RSS feed, so no need to fiddle with things if you're already subscribed. They'll be pretty subject matter specific, but I hope to make them informative and or entertaining to my readers who don't know as much about the subjects.</li> <li>Friends page: I love my friends. I want to highlight their work or stuff they like if I can. I also really like the idea of web rings and these 88x31 buttons. Therefore I've made a little shrine, and given each of my friends a button to share whatever they want. Go <a href="https://lytel-saffron.neocities.org/friends">check it out</a>!</li> <li>About page: Seemed like a sensible thing to have. Although I suspect most of my readers already know me, statistics from my current host, neocities, suggest that there are at least a few random folks wandering onto this page.</li></ul> <p>If you're not reading this on the site, that's probably because you're reading it thru the newly fixed RSS feature! Please enjoy not needing to click a link to read whatever random thing I felt like writing about.</p> <p>There's still plenty more I want to work on with this site, but I suspect that will be the case forever. I've never been one to let a good idea rest, after all. I hope folks stick around and continue to enjoy my work, whatever form it may take.</p> <p>For a brief update on my personal life: Things were very rough for a while, but I'm doing much better now that I'm in a new phase of my life. I still have problems, but life will always provide problems, and I'm glad they're new problems. I'm ready to face them head on.</p> <p>That's all for now! If you have any feedback or feature requests, or just want to say hi, don't hesitate to reach out.</p>]]>
+        </description>
+       </item>
+     <item>
+         <title>This is a test</title>
+         <link>https://lytel-saffron.neocities.org/index.html</link>
+         <guid>https://lytel-saffron.neocities.org/index.html</guid>
+         <pubDate>Sun, 17 May 2026 02:00:00 EST</pubDate>
+            <description>
+            <![CDATA[><p>This is a test. If it worked, this should be readable from my rss feed and (partially) automated.</p>]]>
+            </description>
+        </item>
+       <item>
+        <title>Victory Nap</title>
+         <link>https://lytel-saffron.neocities.org/blog/victory-nap.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/victory-nap.html</guid>
+         <pubDate>Sun, 10 May 2026 23:50:00 EST</pubDate>
+       </item>
+     <item>
+         <title>Assorted vol 1</title>
+         <link>https://lytel-saffron.neocities.org/blog/assorted.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/assorted.html</guid>
+         <pubDate>Mon, 23 Feb 2026 07:00:00 EST</pubDate>
+       </item>
+     <item>
+         <title>Archipelago</title>
+         <link>https://lytel-saffron.neocities.org/blog/archipelago.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/archipelago.html</guid>
+         <pubDate>Mon, 23 Feb 2026 07:00:00 EST</pubDate>
+       </item>
+     <item>
+         <title>I Can Fall</title>
+         <link>https://lytel-saffron.neocities.org/blog/i-can-fall.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/i-can-fall.html</guid>
+         <pubDate>Thu, 19 Feb 2026 02:38:00 EST</pubDate>
+       </item>
+     <item>
+         <title>To Me in 5 Years</title>
+         <link>https://lytel-saffron.neocities.org/blog/to-me-in-5-years.html</link>
+         <guid>https://lytel-saffron.neocities.org/blog/to-me-in-5-years.html</guid>
+         <pubDate>Tue, 10 Feb 2026 00:00:00 EST</pubDate>
+       </item>
        <item>
          <title>Here I Am</title>
          <link>https://lytel-saffron.neocities.org/blog/here-i-am.html</link>
          <guid>https://lytel-saffron.neocities.org/blog/here-i-am.html</guid>
          <pubDate>Mon, 20 Jan 2026 00:00:00 EST</pubDate>
        </item>
-	   <item>
-         <title>To Me in 5 Years</title>
-         <link>https://lytel-saffron.neocities.org/blog/to-me-in-5-years.html</link>
-         <guid>https://lytel-saffron.neocities.org/blog/to-me-in-5-years.html</guid>
-         <pubDate>Tue, 10 Feb 2026 00:00:00 EST</pubDate>
-       </item>
-	   <item>
-         <title>I Can Fall</title>
-         <link>https://lytel-saffron.neocities.org/blog/i-can-fall.html</link>
-         <guid>https://lytel-saffron.neocities.org/blog/i-can-fall.html</guid>
-         <pubDate>Thu, 19 Feb 2026 02:38:00 EST</pubDate>
-       </item>
-	   <item>
-         <title>Archipelago</title>
-         <link>https://lytel-saffron.neocities.org/blog/archipelago.html</link>
-         <guid>https://lytel-saffron.neocities.org/blog/archipelago.html</guid>
-         <pubDate>Mon, 23 Feb 2026 07:00:00 EST</pubDate>
-       </item>
-	   <item>
-         <title>Assorted vol 1</title>
-         <link>https://lytel-saffron.neocities.org/blog/assorted.html</link>
-         <guid>https://lytel-saffron.neocities.org/blog/assorted.html</guid>
-         <pubDate>Mon, 23 Feb 2026 07:00:00 EST</pubDate>
-       </item>
-	   <item>
-         <title>Victory Nap</title>
-         <link>https://lytel-saffron.neocities.org/blog/victory-nap.html</link>
-         <guid>https://lytel-saffron.neocities.org/blog/victory-nap.html</guid>
-         <pubDate>Sun, 10 May 2026 23:50:00 EST</pubDate>
-       </item>
     </channel>
-
 </rss>
