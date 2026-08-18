@@ -6,7 +6,22 @@
        <description>A journal of sorts</description>
        <link>https://lytel-saffron.neocities.org/blog</link>
         <atom:link href="https://lytel-saffron.neocities.org/rss.xml" rel="self" type="application/rss+xml"/>
-	   <item>
+        <item>
+        <title>August 2026 Woust League</title>
+        <link>https://lytel-saffron.neocities.org/blog/august-woust-2026.html</link>
+        <guid>https://lytel-saffron.neocities.org/blog/august-woust-2026.html</guid>
+        <pubdate>Tue, 18 Aug 2026 15:00:00</pubdate>
+        <description><![CDATA[<h1>August 26 Woust League</h1>
+    <p>It's time for another Woust League!</p>
+    <p>For those unaware, I run a monthly tournament for my card game, <a href=../games/woust-resource.html>Wizard Jousting</a>, every month. Starting this month, it'll be hosted through my webbed site! Future registration information will be posted on the first monday of each month on this website's landing page. An archive of decklists submitted to Woust League can be found <a href=../games/woust-archive.html>here</a>.</p>
+    <p>This month features three returning competitors and one new competitor!</p>
+    <p>Mweepigeon is piloting Axstrologer, a list built to knock the opponent off balance with countermagic and pitch advantage to find a winning position via the new card Ultimax Ax.</p>
+    <p>Lettuce Turtle is bringing Surströmming, a fish focused deck that hopes to take advantage of 4YA heat with Mind to Mush, locking the opponents out of plays and finishing them off with Divine's sword style damage spells.<p>
+    <p>Gorm has registered Bonologist, a paleo deck utilizing Incatementum Rex's synergy with undercosted cover cards to bite the opponent down to size.</p>
+    <p>Our newest wouster, Chai, is running Punchdoner. This classic strategy uses the card advantage the Pardoner class provides to put up more burn spells than the opponent can handle, with a freeze subtheme to help ice out the opponent's defenses.</p>
+    <p>Tournament pairings are provided below. Happy Wousting!</p>]]></description>
+        </item>	   
+        <item>
         <title>Site Update</title>
         <link>https://lytel-saffron.neocities.org/blog/site-update.html</link>
         <guid>https://lytel-saffron.neocities.org/blog/site-update.html</guid>
